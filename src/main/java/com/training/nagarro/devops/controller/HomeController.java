@@ -14,9 +14,10 @@ public class HomeController {
 	@RequestMapping("/welcomeMessage")
 	public Map<String, Object> welcomeMessage(){
 		Map<String, Object> response=new HashMap<>();
-		response.put("Message", "Welcome to devops assignment rest api end point is working fine");
+		response.put("Message", "Welcome to devops assignment, Rest api end point is working fine");
 		response.put("Success", true);
-		response.put("status", HttpStatus.OK);
+		response.put("Status", HttpStatus.OK);
 		return response;
 	}
+
 }
