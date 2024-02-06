@@ -16,7 +16,7 @@ public class HomeController {
 		Map<String, Object> response=new HashMap<>();
 		response.put("Message", "Welcome to devops assignment, Rest api end point is working fine");
 		response.put("Success", true);
-		response.put("status", HttpStatus.OK);
+		response.put("Status", HttpStatus.OK);
 		return response;
 	}
 
